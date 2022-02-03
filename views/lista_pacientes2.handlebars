@@ -1,0 +1,23 @@
+
+    <h3>Listagem de Pacientes</h3>
+    {{#each posts}}
+    <p>id: {{dataValues.id}}<br></p>
+    <p>local: {{dataValues.local}}<br></p>
+    <p>nome: {{dataValues.nome_paciente}}<br></p>
+    <p>rg: {{dataValues.rg}}<br></p>
+    <p>cpf: {{dataValues.cpf}}<br></p>
+    <p>genero: {{dataValues.genero}}<br></p>
+    <p>cep: {{dataValues.cep}}<br></p>
+    <p>logradouro: {{dataValues.logradouro}}<br></p>
+    <p>numero: {{dataValues.numero}}<br></p>
+    <p>uf: {{dataValues.uf}}<br></p>
+    <p>estado: {{dataValues.estado}}<br></p>
+    <p>status: {{dataValues.status}}<br></p>
+    <a href="/del-pacientes/{{dataValues.id}}"><button>Apagar Registro</button></a>
+    <a href="/pacientes_edit/{{dataValues.id}}"><button>Editar</button></a>
+    <hr>
+    {{/each}}
+</body>
+<script>
+</script>
+</html>

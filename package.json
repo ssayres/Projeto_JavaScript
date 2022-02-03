@@ -1,0 +1,26 @@
+{
+  "name": "projetosip",
+  "version": "1.0.0",
+  "description": "projeto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error : no test especified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssayres/SIP_projeto.git"
+  },
+  "author": "sidnei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssayres/SIP_projeto/issues"
+  },
+  "homepage": "https://github.com/ssayres/SIP_projeto#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express-handlebars": "^6.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.2"
+  }
+}
